@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(to right, white, lightpink);
+    background-image: url(twicebg.jpg);
+    background-size: cover;
+}
+div{
+    width: 200px;
+    border-radius: 25px; 
+    height: 200px;
+    float:left;
+    margin-right: 2em;
+    border: 5px solid;
+    font-family: sans-serif;
+    text-align: center;
+}
+#maknae{
+    border-color: mediumpurple;
+    background-color: aliceblue;
+    opacity: 0.6;
+    -webkit-transform: rotate(35deg) translate(45px,14px);
+    -ms-transform: rotate(35deg) translate(45px,14px);
+    -o-transform: rotate(35deg) translate(45px,14px);
+    -moz-transform: rotate(35deg) translate(45px,14px);
+    
+    
+}
+#najeonghyo{
+   border-color: darkorange;
+    background-color: aliceblue;
+    opacity: 0.6;
+    -webkit-transform: translateY(350px) skew(15deg);
+    -ms-transform: translateY(350px) skew(15deg);
+    -o-transform: translateY(350px) skew(15deg);
+    -moz-transform: translateY(350px) skew(15deg);
+    
+    
+}
+#jline{
+    border-color: hotpink;
+    -webkit-transition: background-color 1.5s ease-out;
+    -ms-transition:  background-color 1.5s ease-out;
+    -o-transition:  background-color 1.5s ease-out;
+    -moz-transition:  background-color 1.5s ease-out;
+    -webkit-transition: transform 1s ease-out;
+    -ms-transition: transform 1s ease-out;
+    -o-transition: transform 1s ease-out;
+    -moz-transition: transform 1s ease-out;
+    
+}
+#jline:hover{
+    background-color: aliceblue;
+    -webkit-transform:rotate(15deg);
+    -ms-transform:rotate(15deg);
+    -o-transform:rotate(15deg);
+    -moz-transform:rotate(15deg);
+}
